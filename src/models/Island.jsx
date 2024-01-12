@@ -14,11 +14,36 @@ import { a } from '@react-spring/three'
 
 import islandScene from '../assets/3d/island.glb';
 
-const Island = (props) => {
+const Island = ({ isRotating, setIsRotating, ...props}) => {
 
   const islandRef = useRef();
 
+  const { gl, viewport } = useThree();
+
   const { nodes, materials } = useGLTF(islandScene);
+
+  const lastX = useRef(0);
+  const rotationSpeed = useRef(0);
+  const dampingFactor = 0.95;
+
+  const handlePointerDown = (e) => {
+    e.stopProgation();
+    e.preventDefault();
+    setIsRotating(true);
+
+    const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+  }
+
+  const handlePointerUp = (e) => {
+    e.stopProgation();
+    e.preventDefault();
+    setIsRotating(false);
+  }
+
+  const handlePointerDMove = (e) => {
+    e.stopProgation();
+    e.preventDefault();
+  }
 
   return (
     <a.group ref={islandRef}{...props}>
