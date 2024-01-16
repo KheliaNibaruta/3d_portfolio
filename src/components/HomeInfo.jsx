@@ -8,7 +8,10 @@ const InfoBox = ({ text, link, btnText}) => (
         <p className='font-medium sm:text-xl text-center'>{text}</p>
         <Link to={link} className='neo-brutalism-white neo-btn'>
             {btnText}
-            <img src={arrow} className='w-4 h-4 object-contain'></img>
+            <img 
+                src={arrow} 
+                className='w-4 h-4 object-contain'>
+            </img>
         </Link>
     </div>
 )
@@ -32,7 +35,7 @@ const renderContent = {
     3: (
         <h1>
             <InfoBox
-                text="Here's my projects"
+                text="Here's my projects hkjduhezijezhciezuhc"
                 link="/projects"
                 btnText="Visit my portfolio"
             />
@@ -41,8 +44,9 @@ const renderContent = {
     4: (
         <h1>
             <InfoBox
-                text="Looking for a front-end developper?"
-                btnText="Get in touch with me"
+                text="Looking for a front-end developper? ijeqruhgiuvheiugh"
+                link="/contact"
+                btnText="Get in touch"
             />
         </h1>
     ),
