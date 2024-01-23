@@ -19,7 +19,7 @@ function About() {
       <div className="py-10 flex flex-col">
         <h3 className='subhead-text'>My Skills</h3>
 
-        <div className='mt-16 flex flex-wrap gap-12'>
+        <div className='mt-16 flex flex-wrap gap-10'>
           {skills.map((skill) => (
             <div className='block-container w-20 h-20'>
               <div className='btn-back rounded-xl' />
@@ -38,16 +38,8 @@ function About() {
         <h3 className='subhead-text'>Experience</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Aenean faucibus diam sit amet risus vehicula congue. 
-          Vivamus sit amet dui augue. Curabitur gravida turpis eget lacinia tempor. 
-          Morbi ac velit quis dolor auctor ultrices quis non lacus. 
-          In eu quam ac odio ultrices facilisis. Aliquam elementum eleifend malesuada. 
-          Pellentesque tincidunt, dui vitae congue volutpat, dolor libero pharetra velit, 
-          id gravida augue risus nec enim. In id ex feugiat, aliquam nisi non, auctor est. 
-          Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-          In vulputate, elit at hendrerit lacinia, lacus elit interdum est, ullamcorper bibendum sem orci quis urna. 
-          Donec ac lobortis nibh. Nulla ornare est feugiat, interdum turpis molestie, lacinia felis. 
+          I've worked with some companies, leveling up my skills and
+            teaming up with smart people. Here's the rundown:
           </p>
         </div>
 

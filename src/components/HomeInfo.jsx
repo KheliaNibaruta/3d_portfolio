@@ -35,7 +35,7 @@ const renderContent = {
     3: (
         <h1>
             <InfoBox
-                text="Here's my projects hkjduhezijezhciezuhc"
+                text="Here's my projects"
                 link="/projects"
                 btnText="Visit my portfolio"
             />
@@ -44,7 +44,7 @@ const renderContent = {
     4: (
         <h1>
             <InfoBox
-                text="Looking for a front-end developper? ijeqruhgiuvheiugh"
+                text="Looking for a front-end developper? Click down below"
                 link="/contact"
                 btnText="Get in touch"
             />
