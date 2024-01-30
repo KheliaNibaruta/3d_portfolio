@@ -121,7 +121,7 @@ export const experiences = [
         title: "Web Developer",
         company_name: "GLICE Burundi",
         iconBg: "#b7e4c7",
-        date: "Nov 2020 - May 2020",
+        date: "Nov 2019 - May 2020",
         points: [
             "Participating in workshops to gather needs",
             "Developing and maintaining web applications using PHP5 and other related technologies.",

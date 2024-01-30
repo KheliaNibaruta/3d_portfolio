@@ -14,7 +14,7 @@ function Navbar() {
             <NavLink to="/projects" className={({isActive}) => isActive ? 'text-blue-500' : 'text-black'}>
                 Projects
             </NavLink>
-            <a href="src/assets/images/CV_2024-01-23_NIBARUTA_Khélia.pdf" download >CV</a>
+            <a href="https://cvdesignr.com/p/6327e5e2e7c40">CV</a>
         </nav>
     </header>
   )
